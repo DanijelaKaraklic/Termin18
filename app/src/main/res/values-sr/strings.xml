@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Јела</string>
+    <string name="first_activity_name">Прва активност</string>
+    <string name="second_activity_name">Друга активност</string>
+    <string name="third_activity_name">Трећа активност</string>
+    <string name="starting_activity">Започни активност</string>
+    <string name="opening_activity">Отварање веб претраживача</string>
+    <string name="naziv_jela">Назив јела</string>
+    <string name="description">Опис јела</string>
+    <string name="cena">Цена</string>
+    <string name="cal">Калорије</string>
+    <string name="name_restaurant">име_ресторана</string>
+    <string name="name_title">Име ресторана</string>
+    <string name="name_sum">Промените наѕив ресторана</string>
+
+    <string name="adress_restaurant">адреса_ресторана</string>
+    <string name="adress_title">Адреса ресторана</string>
+    <string name="adress_sum">Изменити адресу ресторана</string>
+    <string name="setting">Активност подешавања</string>
+
+    <string name="activity_first_toolbar_title">Наѕив линије са алатима</string>
+
+
+    <string name="detail_heading">Детаљи веб стране</string>
+    <string name="list_heading">Списак веб страна</string>
+    <string name="order">Наручите жељено јело</string>
+
+    <string name="drawer_open">Отворите Навигациону фиоку</string>
+    <string name="drawer_close">Затворите навигациону фиоку</string>
+    <string name="drawer_home">Главна страница</string>
+    <string name="drawer_home_long">Прикажите сва јела</string>
+    <string name="drawer_settings">Подешавања</string>
+    <string name="drawer_settings_long">Промена подешавања апликације</string>
+    <string name="drawer_about">О</string>
+    <string name="drawer_about_long">О нама</string>
+
+
+</resources>

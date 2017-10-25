@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/list_view"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/detail_view"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/drawerPane"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <!-- List of NavigationDrawer items (pages) -->
+            <ListView
+                android:id="@+id/navList"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:background="#ffffffff" />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+    
+    
+
+
+
+
+
+</LinearLayout>

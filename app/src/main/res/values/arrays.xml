@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="meals">
+        <item>Spaghetti</item>
+        <item>Nugat Cake</item>
+        <item>Barbecue</item>
+        <item>Pizza Capriccioza</item>
+        <item>Mashroom soup</item>
++
+    </string-array>
+    
+</resources>

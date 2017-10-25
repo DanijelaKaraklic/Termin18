@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <PreferenceCategory
+            android:title="Change of data about restaurant"
+            android:key="restaurant_settings">
+
+                <EditTextPreference
+                        android:key="@string/name_restaurant"
+                        android:title="@string/name_title"
+                        android:summary="@string/name_sum">
+
+                </EditTextPreference>
+
+
+                <EditTextPreference
+                    android:key="@string/adress_restaurant"
+                    android:title="@string/adress_title"
+                    android:summary="@string/adress_sum">
+
+                </EditTextPreference>
+
+        </PreferenceCategory>
+</PreferenceScreen>

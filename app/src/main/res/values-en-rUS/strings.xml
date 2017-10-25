@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meals</string>
+    <string name="first_activity_name">First Activity</string>
+    <string name="second_activity_name">Second Activity</string>
+    <string name="third_activity_name">Third Activity</string>
+    <string name="starting_activity">Start an Activity</string>
+    <string name="opening_activity">Open Web Browser</string>
+    <string name="naziv_jela">Name of meal</string>
+    <string name="description">Description of meal</string>
+    <string name="cena">Price</string>
+    <string name="cal">Calory</string>
+    <string name="name_restaurant">name_restaurant</string>
+    <string name="name_title">Name of restaurant</string>
+    <string name="name_sum">Edit the name of restaurant</string>
+    <string name="adress_restaurant">adress_restaurant</string>
+    <string name="adress_title">Adress of restaurant</string>
+    <string name="adress_sum">Edit the adress of restaurant</string>
+    <string name="setting">Settings Activity</string>
+
+    <string name="activity_first_toolbar_title">Toolbar Title</string>
+
+
+    <string name="detail_heading">Web Page Detail</string>
+    <string name="list_heading">Web Page Listing</string>
+    <string name="order">Order the wanted meal</string>
+
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="drawer_home">Home</string>
+    <string name="drawer_home_long">Show All Meals</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_settings_long">Change App Settings</string>
+    <string name="drawer_about">About</string>
+    <string name="drawer_about_long">About Us</string>
+
+</resources>
