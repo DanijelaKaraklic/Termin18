@@ -3,12 +3,16 @@ package rs.aleph.android.example12.activities;
 import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -298,6 +302,59 @@ public class FirstActivity extends AppCompatActivity implements ListFragment.OnI
 			detailShown = false;
 		}
 
+	}
+
+
+	// onCreateOptionsMenu method initialize the contents of the Activity's Toolbar.
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.menu, menu);
+		return super.onCreateOptionsMenu(menu);
+	}
+
+	// onOptionsItemSelected method is called whenever an item in the Toolbar is selected.
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case R.id.action_create:
+				Toast.makeText(this, "Action " + getString(R.string.fragment_master_action_create) + " executed.", Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.action_update:
+				Toast.makeText(this, "Action " + getString(R.string.fragment_detal_action_update) + " executed.", Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.action_delete:
+				Toast.makeText(this, "Action " + getString(R.string.fragment_detal_action_delete) + " executed.", Toast.LENGTH_SHORT).show();
+				//Snackbar.make(findViewById(R.id.list_view), "test", Snackbar.LENGTH_SHORT).show();
+				break;
+		}
+
+		return super.onOptionsItemSelected(item);
+	}
+
+	// Overrides setTitle method to support older api levels
+	@Override
+	public void setTitle(CharSequence title) {
+		getSupportActionBar().setTitle(title);
+	}
+
+
+
+
+	@Override
+	protected void onPostCreate(Bundle savedInstanceState) {
+		super.onPostCreate(savedInstanceState);
+
+		// Sync the toggle state after onRestoreInstanceState has occurred.
+		drawerToggle.syncState();
+	}
+
+	// onConfigurationChanged method is called when the device configuration changes to pass configuration change to the drawer toggle
+	@Override
+	public void onConfigurationChanged(Configuration configuration) {
+		super.onConfigurationChanged(configuration);
+
+		// Pass any configuration change to the drawer toggle
+		drawerToggle.onConfigurationChanged(configuration);
 	}
 
 }

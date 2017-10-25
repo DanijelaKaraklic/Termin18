@@ -20,7 +20,19 @@
     <string name="adress_sum">Изменити адресу ресторана</string>
     <string name="setting">Активност подешавања</string>
 
-    <string name="activity_first_toolbar_title">Наѕив линије са алатима</string>
+    <string name="activity_first_toolbar_title">Назив линије са алатима</string>
+
+    <string name="fragment_master_action_create">Додај</string>
+
+    <string name="fragment_detail_button_buy">Купи</string>
+    <string name="fragment_detal_action_update">Измени</string>
+    <string name="fragment_detal_action_delete">Уклони</string>
+
+
+    <string name="dialog_about_title">О апликацији</string>
+    <string name="dialog_about_message">Ово је Example18 апликација која демонстрира како се користе toast поруке, обавештења, дијалози, подешавања, линија алатики и фиока за навикацију</string>
+    <string name="dialog_about_yes">У реду</string>
+    <string name="dialog_about_no">Одустани</string>
 
 
     <string name="detail_heading">Детаљи веб стране</string>

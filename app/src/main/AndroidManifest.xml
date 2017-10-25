@@ -11,9 +11,10 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:theme="@style/Theme.AppCompat.Light">
+        android:theme="@style/AppTheme.NoActionBar">
 
-        <!-- Declares 1st (main) activity. Action "MAIN" and category "LAUNCHER" properties makes it visible in the application launcher -->
+
+    <!-- Declares 1st (main) activity. Action "MAIN" and category "LAUNCHER" properties makes it visible in the application launcher -->
         <activity
             android:name="rs.aleph.android.example12.activities.FirstActivity"
             android:label="@string/first_activity_name"
@@ -27,6 +28,7 @@
 
         <!-- Declares 2nd activity -->
         <activity android:name=".activities.SettingsActivity"
+            android:parentActivityName=".activities.FirstActivity"
             android:label="@string/setting"
             android:icon="@mipmap/ic_settings">
 
